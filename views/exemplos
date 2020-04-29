@@ -1,0 +1,13 @@
+$pontos = array(",", ".");
+	$result = str_replace($pontos, "", $valor);
+
+    echo date("mdY", strtotime("07-12-2019")) (Retorna 07122019
+    str_split ( string $string [, int $split_length ] ) : array)
+
+    <form action="sua_pagina_aqui.php" method="post" name="nome_do_formulario">
+  <input type="hidden" name="id" value="sua_id_aqui" />
+    </form>chamando a função, javascript submit(); assim:
+    
+    <script type="text/javascipt">
+   document.nome_do_formulario.submit();
+    </script>

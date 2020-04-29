@@ -1,0 +1,30 @@
+
+#pessoa{
+    animation: perna 1s linear infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#brilhos{
+    animation: brilhos 8s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes perna{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-10deg);
+    }
+}
+
+@keyframes brilhos{
+    from{
+        transform: rotateX(0deg) rotateZ(0deg);
+    }
+    to{
+        transform: rotateX(20deg) rotateZ(359deg);
+    }
+}
