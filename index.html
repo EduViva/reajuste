@@ -49,14 +49,14 @@
   </div>
 
 
-    <aside class="ls-sidebar">
+  <aside class="ls-sidebar">
 
-  <div class="ls-sidebar-inner">
+    <div class="ls-sidebar-inner">
 
       <nav class="ls-menu">
         <ul>
-           <li><a href="views/indice.php" class="ls-ico-dashboard" title="Indice">Índice</a></li>
-           <li>
+          <li><a href="views/indice.php" class="ls-ico-dashboard" title="Indice">Índice</a></li>
+          <li>
             <a href="#" class="ls-ico-calendar-more" title="Meses">Meses</a>
             <ul>
                 <li><a href="views/listar.php?mes=01">Janeiro</a></li>
@@ -81,20 +81,14 @@
           </li>
         </ul>
       </nav>
-
-
-  </div>
-</aside>
+    </div>
+  </aside>
 
 
     <main class="ls-main ">
       <div class="container-fluid">
         <h1 class="ls-title-intro ls-ico-home">Página inicial</h1>
-        <?php
-          date_default_timezone_set('America/Sao_Paulo');
-          $date = date('Y');
-          echo $date;
-        ?>
+        <h3>Use o menu lateral para navegar</h3>
       </div>
     </main>
 
